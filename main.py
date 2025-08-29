@@ -27,7 +27,7 @@ if df.empty:
 
 # Initialize session state for query
 if 'search_query' not in st.session_state:
-    st.session_state.search_query = "Iphone 13 pro 256GB 60k"
+    st.session_state.search_query = "Iphone 13 pro 256GB less than 60k"
 
 # Search interface
 st.markdown("### Enter your search query:")
