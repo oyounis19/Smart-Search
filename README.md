@@ -6,6 +6,44 @@ A bilingual (Arabic/English) intelligent search application for OLX products usi
 
 Access the live demo of the application [here](https://smart-search1.streamlit.app/).
 
+## Usecases
+
+Every search system can benefit from this approach, where a user searches in natural language (English or Arabic) and gets relevant results applying the constraints/filters in the query.
+
+### Examples
+
+- **🍔 Food Delivery & Restaurant Discovery**
+**User says**: "I'm looking for a spicy chicken pizza without olives"
+**​System understands**:
+Dish: Pizza
+Protein: Chicken
+Profile: Spicy
+Exclude: Olives
+- **​🛍️ E-commerce**:
+**​User says**: "Show me 15-inch laptops with at least 16GB RAM for under 25,000 EGP"
+**​System understands**:
+Category: Laptop
+Screen Size: 15-inch
+RAM: >= 16GB
+Price: < 25000 EGP
+- **​🏠 Real Estate**:
+​**User says**: "I need a 3-bedroom apartment for rent in Zamalek with a balcony"
+**​System understands**:
+Property Type: Apartment
+Listing Type: Rent
+Location: Zamalek
+Bedrooms: 3
+Feature: Balcony
+- **​✈️ Travel & Flight Booking**:
+**​User says**: "Find me a non-stop flight from Cairo to London next Friday for two adults"
+**​System understands**:
+Type: Flight
+Origin: Cairo
+Destination: London
+Date: Next Friday
+Stops: 0
+Passengers: 2
+
 ## 🌟 Features
 
 - **Bilingual Search**: Supports both Arabic and English queries
