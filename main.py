@@ -4,7 +4,7 @@ from utils import load_ner_model, parse_query_with_ner, search_products, load_da
 
 # Page config
 st.set_page_config(
-    page_title="Smart Search - OLX Products",
+    page_title="Smart Search",
     page_icon="🔍",
     layout="wide"
 )
